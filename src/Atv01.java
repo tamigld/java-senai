@@ -1,4 +1,8 @@
-//Você irá gerar uma média de duas notas, e caso a nota seje maior igual a 6, precisa aparecer uma mensagem de parabéns, caso não seje maior igual a 6, informe ao usuário que ele não passou.
+// Gerar a média de duas notas:
+// Caso a nota seja maior igual a 6, imprimir mensagem de parabéns.
+// Caso seja menor que 6, informar ao usuário que ele não passou.
+
+
 import  java.util.Scanner;
 
 public class Atv01 {
@@ -14,9 +18,9 @@ public class Atv01 {
         float media = (nota1 + nota2) / 2;
 
         if(media >= 6){
-            System.out.printf("Parabéns! Sua nota média foi %f", media);
+            System.out.printf("Parabéns! Sua média é de %f", media);
         } else{
-            System.out.printf("Você não passou, sua nota média foi %f. Para passar você precisaria atingir 6 pontos", media);
+            System.out.printf("Você não passou, sua nota média foi de %f. A média é no mínimo 6.", media);
         }
     }
 }

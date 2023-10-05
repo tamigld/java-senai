@@ -16,6 +16,6 @@ public class Atv08 {
                 System.out.println("Digite um número diferente de zero");
             }
 
-        }while (numero != 0);
+        } while (numero != 0);
     }
 }

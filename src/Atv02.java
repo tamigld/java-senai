@@ -12,10 +12,13 @@ public class Atv02 {
         int num = scanner.nextInt();
 
         if(num > 0){
-            System.out.println("Número positivo!");
+            System.out.println("O número é positivo!");
+        }
+        else if(num < 0){
+            System.out.println("O número é negativo!");
         }
         else{
-            System.out.println("Número negativo");
+            System.out.println("O número é nulo.");
         }
     }
 }

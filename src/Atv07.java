@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class Atv07 {
     public static void main(String[] args){
-        Scanner scanner = new Scanner(System.In);
+        Scanner scanner = new Scanner(System.in);
 
         final String senha = "123";
         String senhaDigitada;
